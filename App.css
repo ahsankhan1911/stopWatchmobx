@@ -1,44 +1,35 @@
 .container {
     width: 700px;
-     height: 400px;
-    left: 50%;
-    top: 50%;
-     margin: 40px auto;
-    /* position: absolute; */
+     height: 380px;
+     margin: 50px auto; 
     text-align: center;
     background: #1F2C2C;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 0 0 5px rgba(0,0,0,0.85), 0 0 3px rgba(255,255,255,0.75) inset;
-    color: #ccc;
+
+   padding: 50px;
 }
 .counter {
     position: relative;
     letter-spacing: 2px;
     font-family: impact;
-      font-size: 10em;   
+      font-size: 8em;   
     color: #617680;
     text-shadow: 1px 1px 1px rgba(173, 242, 255, 0.8), 0 0 10px rgba(0,0,0,0.5);
 }
-/* .hello {
-
-    height: 70px;
-    width: 120px;
-    font-size: 40px;
-align-content: center;
-}  */
-
 
 .time {
     font-family: helvetica;
     padding: 10px;
-    width: 30%;
-    background: #332211;
+    width: 35%;
+    background: #C6C8CA;
     border-radius: 5px;
-    margin: 25px auto;
-    margin-bottom: 0;
-    box-shadow: 0 0 5px rgba(0,0,0,0.75), 0 0 2px rgba(255,255,255,0.75) inset;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    margin: 30px auto;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.75), 0 0 2px;
+    
 }
 hr {
     width: 80%;
@@ -49,14 +40,14 @@ hr {
 
 
 .button {
-    background-color: #C0C0C0; color: black;
+    background-color: #FFD034; color: black;
     border: none;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 10px 7px;
+    font-size: 25px;
+    margin: 30px 7px;
     cursor: pointer;
     border-radius: 5px;
 }
