@@ -1,7 +1,6 @@
 import {action, computed , observable} from 'mobx';
 
 
-
 class AppState {
 @observable timeinHr = 0;
 @observable timeinMin = 0;
